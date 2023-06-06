@@ -1,0 +1,19 @@
+{
+  "project-yggdrasil.AbilityStr": "Strength",
+  "project-yggdrasil.AbilityCon": "Constitution",
+  "project-yggdrasil.AbilityDex": "Dexterity",
+  "project-yggdrasil.AbilityInt": "Intelligence",
+  "project-yggdrasil.AbilityWis": "Wisdom",
+  "project-yggdrasil.AbilityCha": "Charisma",
+  "project-yggdrasil.AbilityStrAbbr": "str",
+  "project-yggdrasil.AbilityConAbbr": "con",
+  "project-yggdrasil.AbilityDexAbbr": "dex",
+  "project-yggdrasil.AbilityIntAbbr": "int",
+  "project-yggdrasil.AbilityWisAbbr": "wis",
+  "project-yggdrasil.AbilityChaAbbr": "cha",
+  "project-yggdrasil.EffectCreate": "Create Effect",
+  "project-yggdrasil.EffectToggle": "Toggle Effect",
+  "project-yggdrasil.EffectEdit": "Edit Effect",
+  "project-yggdrasil.EffectDelete": "Delete Effect",
+  "project-yggdrasil.Add": "Add"
+}

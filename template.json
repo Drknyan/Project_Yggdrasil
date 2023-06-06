@@ -1,0 +1,81 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "base": {
+        "hp": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "mp": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "sp-i":{
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "sp-e":{
+          "value":10,
+          "min":0,
+          "max":10
+        },
+        "biography": ""
+      }
+    },
+    "character": {
+      "templates": ["base"],
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "abilities": {
+        "offense": {
+          "value": 10
+        },
+        "defense": {
+          "value": 10
+        },
+        "magic": {
+          "value": 10
+        },
+        "magic_resistance": {
+          "value": 10
+        },
+        "speed": {
+          "value": 10
+        }
+      }
+    },
+    "npc": {
+      "templates": ["base"],
+      "cr": 0
+    }
+  },
+  "Item": {
+    "types": ["item", "skill", "spell"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": ["base"],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    },
+    "skill": {
+      "templates": ["base"]
+    },
+    "spell": {
+      "templates": ["base"],
+      "spellType": "",
+      "spellLevel": 1
+    }
+  }
+}
